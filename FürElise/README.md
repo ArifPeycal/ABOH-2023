@@ -2,7 +2,7 @@
 
 ## Solution
 
-The challenge requires us to download a zip file containing a text file ```heartbroken.txt```. The file contains some Powershell commands along with many lines of 'FurElise'.
+The challenge requires us to download a zip file containing a text file <a href="images/heartbroken.txt">heartbroken.txt</a>. The file contains some Powershell commands along with many lines of 'FurElise'.
 ```
 Sub Document_Open()
 	Set dCBkaW1pbm = CreateObject("WScript.Shell")
