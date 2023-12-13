@@ -106,6 +106,10 @@ $StreamReader.Close();
 ```
 By pasting the command inside Powershell, we can know the value of each variable. Variable ```c2 ``` contains the link for second flag
 
+<p align="center">
+  <img width="80%" height="300" src="images/Capture1.PNG">
+</p>
+
 https://pastebin.com/raw/JCgLz4f1
 
 ### Flag 2/2
