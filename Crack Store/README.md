@@ -1,6 +1,7 @@
 # Crack Store
 ## Solution
-The challenge file is a ZIP archive named ```backup.zip``` using the "Store" compression method. When attempting to unzip, it prompts for a password. Even with incorrect passwords, the ZIP file reveals the filenames within, which resemble those typically found in a Windows System's C:\Windows\System32\drivers\etc directory.
+The challenge file is a ZIP archive named ```backup.zip``` using the "Store" compression method. When attempting to unzip, it prompts for a password. Even with incorrect passwords, the ZIP file reveals the filenames within, which resemble those typically found in a Windows System's C:\Windows\System32\drivers\etc directory. <br>
+
 ![image](https://github.com/user-attachments/assets/0c82c486-1bc1-40ea-9347-b6d0d86bee7c)
 
 At first, I assumed the challenge involved a dictionary attack using zip2john and john, based on the challenge's name. However, after failing and asking the creator for a hint, I realized the challenge's name was the hint itself. A quick Google search on "ZIP Store Crack" led me to <a href="https://www.acceis.fr/cracking-encrypted-archives-pkzip-zip-zipcrypto-winzip-zip-aes-7-zip-rar/">an article</a> about cracking encrypted archives using the Biham and Kocher plaintext attack, which is effective against ZIP files using the ZipCrypto Store compression method.
