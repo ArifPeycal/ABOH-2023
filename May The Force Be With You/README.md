@@ -75,12 +75,15 @@ password = "ni5h2h?Yrq8Do?n+|6a;pKbZkv%}O~tV"
 encrypted_file_path = "./flag.txt.enc"
 decrypt_file(encrypted_file_path, password)
 ```
-
-## Flag
-```ABOH23{A3S_Rul35_tH3_F0rc3}```
 ### Steps to Decrypt:
 1. Extract the IV: The script extracts the IV, which is appended to the end of the ciphertext.
 
 2. Key Derivation: The script reuses the known salt and password to derive the decryption key.
 
 3. Decrypt the Ciphertext: The ciphertext is decrypted using AES in CBC mode, and the plaintext is unpadded to reveal the original content.
+
+## Flag
+```
+ABOH23{A3S_Rul35_tH3_F0rc3}
+```
+
