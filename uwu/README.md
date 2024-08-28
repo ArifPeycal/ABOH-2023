@@ -56,4 +56,6 @@ PS C:\Users\Documents\uwu\Export> ./script
 ABOH23{pER5!St3NCE_!5_my_ninj@_waY} 
 ```
 ## Flag
-```ABOH23{pER5!St3NCE_!5_my_ninj@_waY}```
+```
+ABOH23{pER5!St3NCE_!5_my_ninj@_waY}
+```
