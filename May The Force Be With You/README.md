@@ -75,6 +75,9 @@ password = "ni5h2h?Yrq8Do?n+|6a;pKbZkv%}O~tV"
 encrypted_file_path = "./flag.txt.enc"
 decrypt_file(encrypted_file_path, password)
 ```
+
+## Flag
+```ABOH23{A3S_Rul35_tH3_F0rc3}```
 ### Steps to Decrypt:
 1. Extract the IV: The script extracts the IV, which is appended to the end of the ciphertext.
 
