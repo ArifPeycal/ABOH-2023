@@ -67,10 +67,12 @@ if exact:
 else:
     print("Cube root is not exact. The plaintext might have been too large.")
 ```
-### Explaination
+### Explanation
 1. gmpy2.iroot(c, e): This calculates the integer eth root of c (in this case, the cube root).The iroot function returns a tuple with the root and a boolean indicating whether the root was exact.
 2. m.to_bytes(...): Convert the integer message back to its original byte form.
 3. rstrip: Strip the known suffix to reveal the flag.
 
 ## Flag
-```ABOH23{rocky0ubrr!}```
+```
+ABOH23{rocky0ubrr!}
+```
