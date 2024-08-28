@@ -117,5 +117,7 @@ https://pastebin.com/raw/JCgLz4f1
 _FROm_hEaRtBrE4K}
 ```
 
-### Complete Flag
-The flag for this challenge is ```ABOH23{d!ff1cU17_s0Ng_FROm_hEaRtBrE4K}```
+## Flag
+```
+ABOH23{d!ff1cU17_s0Ng_FROm_hEaRtBrE4K}
+```
