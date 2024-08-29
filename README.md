@@ -21,4 +21,4 @@ We managed to get 80th place out of 144 teams registered. Quite proud for a firs
 |    Forensics                        | <a href = https://github.com/ArifPeycal/ABOH2023/tree/main/Crack%20Store> Crack Store</a> | ZipCrypto "Store" compression method with password protection, Biham and Kocher plaintext attack, use ```bkcrack```
 |    Crypto           | <a href = "https://github.com/ArifPeycal/ABOH2023/tree/main/May%20The%20Force%20Be%20With%20You"> May The Force Be With You</a> | AES in CBC mode with known salt and password 
 |    Crypto              | <a href = "https://github.com/ArifPeycal/ABOH2023/tree/main/Small%20Sage"> Small Sage</a> | RSA Small Exponent Attack
-|    Web              | <a href = "https://github.com/ArifPeycal/ABOH2023/tree/main/Small%20Sage"> Small Sage</a> | XXE file upload with several element requirements
+|    Web              | <a href = "https://github.com/ArifPeycal/ABOH2023/tree/main/Entity%20Entropy"> Entity Entropy</a> | XXE file upload with several element requirements
